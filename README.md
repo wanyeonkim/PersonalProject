@@ -4,7 +4,7 @@ Do work together
 
 This Repo contain everything that we work on.
 
-## 1st Project
+# 1st Project
 The first ever project that we worked on together was boat Race game.
 Initially, it was a university assignment, but we decided to add some GUI on it as it was too boring.
 
@@ -49,6 +49,11 @@ Tests was done a lot of times with different set of users.
 ```
 The Java version for this Project was Coretto 11.
 ```
+
+# 2nd Project
+
+
+
 
 
 ## Authors
