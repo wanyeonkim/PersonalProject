@@ -11,7 +11,7 @@ Initially, it was a university assignment, but we decided to add some GUI on it 
 ### details
 
 This is a Java project, 2 player boat race game that will be run using a dice roll.
- ![Boat](https://github.com/wanyeonkim/BOAT-RACE/tree/main/Cleanup/GUI/playerboat/boat1.png?raw=true)
+ ![Boat](https://github.com/wanyeonkim/ToiletRoll/BoatRace1/GUI/playerboat/boat1.png)
 
 ### Getting Started
 
