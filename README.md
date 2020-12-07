@@ -12,7 +12,7 @@ Initially, it was a university assignment, but we decided to add some GUI on it 
 
 This is a Java project, 2 player boat race game that will be run using a dice roll.
 
- ![Boat](BoatRace1/GUI/playerboat/boat1.png)
+ ![Boat](BoatRace1/GUI/playerboat/boat1.png)  ![Boat](BoatRace1/GUI/playerboat/boat2.png)
 
 ### Getting Started
 
