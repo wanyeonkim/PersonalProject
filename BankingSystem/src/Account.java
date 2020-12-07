@@ -4,6 +4,7 @@ public class Account extends DataBase{
     private double InitialValue;
     private String reason;
 
+
     public String getUserName() {
         return UserName;
     }
