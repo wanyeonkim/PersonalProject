@@ -12,9 +12,12 @@ Initially, it was a university assignment, but we decided to add some GUI on it 
 
 This is a Java project, 2 player boat race game that will be run using a dice roll.
 
- ![Boat](BoatRace1/GUI/playerboat/boat1.png)  ![Boat](BoatRace1/GUI/playerboat/boat2.png)
- ![Boat](BoatRace1/GUI/Compo/bombpumpkinpost.png)  ![Boat](BoatRace1/GUI/Compo/skullbombpost.png)
+ ![Boat1](BoatRace1/GUI/playerboat/boat1.png)  ![Boat2](BoatRace1/GUI/playerboat/boat2.png)
+ 
+ ![pumpkinbomb](BoatRace1/GUI/Compo/bombpumpkinpost.png)  ![skullbomb](BoatRace1/GUI/Compo/skullbombpost.png)
 
+ ![floatingbomb](BoatRace1/GUI/Compo/bomb1.png)
+ 
 ### Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
