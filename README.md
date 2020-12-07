@@ -16,7 +16,6 @@ This is a Java project, 2 player boat race game that will be run using a dice ro
  
  ![pumpkinbomb](BoatRace1/GUI/Compo/bombpumpkinpost.png)  ![skullbomb](BoatRace1/GUI/Compo/skullbombpost.png)
 
- ![floatingbomb](BoatRace1/GUI/Compo/bomb1.png)
  
 ### Getting Started
 
