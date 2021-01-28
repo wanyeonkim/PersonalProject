@@ -1,0 +1,62 @@
+name: shop
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.0
+  http: ^0.12.2
+  provider: ^4.3.3
+  flutter_svg: ^0.19.0
+  intl: ^0.16.1
+  shared_preferences: ^0.5.12+4
+  form_field_validator: ^1.0.1
+
+  curved_navigation_bar: ^0.3.7
+  after_layout: ^1.0.7+2
+  animated_text_kit: ^3.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/Illustrations/
+    - assets/main_icons/
+    - assets/main_icons/outlined/
+    - assets/main_icons/colored/
+
+
+  fonts:
+    - family: SF Pro Text
+      fonts:
+        - asset: assets/font/SF Pro Text/SFProText-Regular.ttf
+        - asset: assets/font/SF Pro Text/SFProText-Bold.ttf
+          weight: 700
+        - asset: assets/font/SF Pro Text/SFProText-Semibold.ttf
+          weight: 600
+        - asset: assets/font/SF Pro Text/SFProText-Medium.ttf
+          weight: 500
+    - family: ITC
+      fonts:
+        - asset: assets/font/ITC_Grouch.ttf
+    - family: ATC
+      fonts:
+        - asset: assets/font/grouchregular.ttf
