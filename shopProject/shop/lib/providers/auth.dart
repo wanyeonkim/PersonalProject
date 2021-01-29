@@ -51,6 +51,7 @@ class Auth with ChangeNotifier {
           responseData['error']['message'],
         );
       }
+
       _token = responseData['idToken'];
       _userId = responseData['localId'];
       _expiryDate = DateTime.now().add(
@@ -60,6 +61,12 @@ class Auth with ChangeNotifier {
           ),
         ),
       );
+
+      /// storing values into db
+
+      final dbUrl =
+          'https://db-practice-14b7e-default-rtdb.firebaseio.com/userInfo/$_userId';
+
       // auto logout
       _autoLogout();
       notifyListeners();
@@ -75,8 +82,68 @@ class Auth with ChangeNotifier {
     }
   }
 
-  Future<void> signUp(String email, String password) async {
-    return _authenticate(email, password, 'signUp');
+
+  Future<void> signUp(
+      String email, String password, String fullName) async {
+     final url =
+        'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDa9BxUoe4pt9F1n9_JIuvX39SfibBv6wM';
+    try {
+      final response = await http.post(
+        url,
+        body: json.encode(
+          {
+            'email': email,
+            'password': password,
+            'returnSecureToken': true,
+          },
+        ),
+      );
+      final responseData = json.decode(response.body);
+      if (responseData['error'] != null) {
+        throw HttpException(
+          responseData['error']['message'],
+        );
+      }
+
+      _token = responseData['idToken'];
+      _userId = responseData['localId'];
+      _expiryDate = DateTime.now().add(
+        Duration(
+          seconds: int.parse(
+            responseData['expiresIn'],
+          ),
+        ),
+      );
+
+      /// storing values into db
+
+      final dbUrl =
+          'https://db-practice-14b7e-default-rtdb.firebaseio.com/userInfo/$_userId.json?auth=$_token';
+      final dbDataUp = await http.post(
+        dbUrl,
+        body: json.encode({
+          'fullName': fullName,
+          'email': email,
+          'isValidated': false,
+          'creationTime':DateTime.now().toIso8601String(),
+        }),
+      );
+
+      // auto logout
+      _autoLogout();
+      notifyListeners();
+      final prefs = await SharedPreferences.getInstance();
+      final userData = json.encode({
+        'token': _token,
+        'userId': _userId,
+        'expiryDate': _expiryDate.toIso8601String(),
+      });
+      prefs.setString('userData', userData);
+    } catch (e) {
+      throw e;
+    }
+
+    // return _authenticate(email, password, 'signUp');
   }
 
   Future<void> signIn(String email, String password) async {
@@ -94,7 +161,7 @@ class Auth with ChangeNotifier {
         json.decode(prefs.getString('userData')) as Map<String, Object>;
     final expiryData = DateTime.parse(extractedUserData['expiryDate']);
 
-    if (expiryData.isBefore(DateTime.now())){
+    if (expiryData.isBefore(DateTime.now())) {
       return false;
     }
     _token = extractedUserData['token'];
@@ -103,7 +170,6 @@ class Auth with ChangeNotifier {
     notifyListeners();
     _autoLogout();
     return true;
-
   }
 
   Future<void> logout() async {

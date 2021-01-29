@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shop/providers/cart.dart';
 import './screens/cart/cart_screen.dart';
 import 'package:shop/screens/onboarding/onboarding_scrreen.dart';
-import './screens/splash_screen.dart';
+import 'screens/splash/splash_screen.dart';
 import './screens/menu/product_overview_screen.dart';
 import './screens/product_detail_screen.dart';
 
@@ -11,10 +11,9 @@ import 'package:provider/provider.dart';
 import './providers/cart.dart';
 import './screens/cart/cart_screen.dart';
 import 'providers/orders.dart';
-import './screens/orders_screen.dart';
+import 'screens/order/orders_screen.dart';
 import './screens/user_products_screen.dart';
 import './screens/edit_product_screen.dart';
-import './screens/auth_screen.dart';
 import 'providers/auth.dart';
 
 import './screens/login_screen/sign_in_screen.dart';
@@ -28,6 +27,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import './screens/home/home.dart';
 import 'providers/advertisements.dart';
 import './screens/edit_advertisement_screen.dart';
+import 'screens/account/account.dart';
+import 'providers/profile.dart';
 
 void main() => runApp(MyApp());
 
@@ -75,6 +76,14 @@ class MyApp extends StatelessWidget {
             auth.userId,
             previousAdvertisements == null ? [] : previousAdvertisements.ads,
           ),
+        ),
+        ChangeNotifierProxyProvider<Auth, ProfileData>(
+          update: (ctx, auth, previousProfileData) => ProfileData(
+            auth.token,
+            auth.userId,
+            '',
+            ''
+          ),
         )
       ],
       child: Consumer<Auth>(
@@ -102,6 +111,7 @@ class MyApp extends StatelessWidget {
             UserProductsScreen.routeName: (ctx) => UserProductsScreen(),
             EditProductScreen.routeName: (ctx) => EditProductScreen(),
             EditAdvertisement.routeName: (ctx) => EditAdvertisement(),
+            AccountScreen.routeName: (ctx) => AccountScreen(),
           },
         ),
       ),
@@ -122,7 +132,8 @@ class _BottomNavState extends State<BottomNav> {
     // CartScreen(),
     ProductOverviewScreen(), // this is menu section
     OnboardingScreen(),
-    OrdersScreen(),
+    AccountScreen(),
+    // OrdersScreen(),
   ];
 
   @override
@@ -200,11 +211,12 @@ class _BottomNavState extends State<BottomNav> {
   }
 }
 
-Future<bool> check() async {
-  final prefs = await SharedPreferences.getInstance();
-  prefs.setBool('user', true);
-  return prefs.getBool('user');
-}
+/// checking if user is first time user or old user by saving it in prefs
+// Future<bool> check() async {
+//   final prefs = await SharedPreferences.getInstance();
+//   prefs.setBool('user', true);
+//   return prefs.getBool('user');
+// }
 
 // class MyHomePage extends StatelessWidget {
 //   @override

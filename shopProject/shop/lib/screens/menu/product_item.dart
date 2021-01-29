@@ -22,7 +22,7 @@ class ProductItem extends StatelessWidget {
           ListTile(
             title: Column(
               children: [
-                Text('${products.items.length}'),
+                // Text('${products.items.length}'),
                 Text(
                   product.title,
                   style: kSecondaryBodyTextStyle,

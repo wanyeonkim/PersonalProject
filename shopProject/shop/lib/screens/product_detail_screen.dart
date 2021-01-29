@@ -28,10 +28,10 @@ class ProductDetailScreen extends StatelessWidget {
               height: 300,
               child: Hero(
                 tag: loadedProduct.id,
-                child: CircleAvatar(
-                  minRadius: 130,
-                  maxRadius: 140,
-                  backgroundImage: AssetImage(loadedProduct.imageUrl),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(10),
+                  child: Image.asset(loadedProduct.imageUrl),
+
                 ),
               ),
             ),
@@ -60,7 +60,7 @@ class ProductDetailScreen extends StatelessWidget {
       ),
       bottomSheet: Container(
         color: kBgColor,
-        height: getProportionateScreenHeight(150.0),
+        height: getProportionateScreenHeight(200.0),
         // width: double.infinity,
         child: SafeArea(
           child: bottomButton(loadedProduct: loadedProduct, cart: cart),
@@ -111,11 +111,10 @@ class _bottomButtonState extends State<bottomButton> {
                 ),
               ],
             ),
-            leading: CircleAvatar(
-              radius: 40,
-              backgroundImage: AssetImage(
-                widget.loadedProduct.imageUrl,
-              ),
+            leading: ClipRRect(
+              borderRadius: BorderRadius.circular(10),
+              child: Image.asset(widget.loadedProduct.imageUrl),
+
             ),
             onTap: () {
               /// action when tap

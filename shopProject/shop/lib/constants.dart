@@ -9,6 +9,11 @@ const kAccentColor = Color(0xFFEF9920);
 const kBodyTextColor = Color(0xFF868686);
 const kInputColor = Color(0xFFFBFBFB);
 const kBgColor = Color(0xFFf7efe6);
+const kAccColor = Color(0xFFfff8f0);
+const kBoxColor = Color(0xFFe6d7c5);
+// const kBoxColor = Color(0xFFe8d4be);
+
+
 
 
 const kLoginEmailInput = Color(0xFFe0d1bf);

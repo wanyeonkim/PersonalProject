@@ -30,6 +30,7 @@ class _SignUpFormState extends State<SignUpForm> {
   Map<String, String> _authData = {
     'email': '',
     'password': '',
+    'fullName':'',
   };
   var _isLoading = false;
 
@@ -64,7 +65,7 @@ class _SignUpFormState extends State<SignUpForm> {
               child: TextFormField(
                 autovalidate: _autoValidate,
                 validator: requiredValidator,
-                onSaved: (value) => _fullName = value,
+                onSaved: (value) => _authData['fullName'] = value,
                 textInputAction: TextInputAction.next,
                 onEditingComplete: () {
                   // Once user click on Next then it go to email field
@@ -198,10 +199,11 @@ class _SignUpFormState extends State<SignUpForm> {
       _isLoading = true;
     });
     try {
-      // sing up user
+      // sign up user
       await Provider.of<Auth>(context, listen: false).signUp(
         _authData['email'],
         _authData['password'],
+        _authData['fullName'],
       );
     } on HttpException catch (error) {
       var errorMessage = 'Authentication failed';

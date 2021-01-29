@@ -173,6 +173,7 @@ class _EditProductScreenState extends State<EditProductScreen> {
                 key: _form,
                 child: ListView(
                   children: <Widget>[
+                    SizedBox(height: 10,),
                     TextFormField(
                       initialValue: _initValues['title'],
                       decoration: InputDecoration(

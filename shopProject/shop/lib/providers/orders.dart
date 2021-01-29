@@ -11,6 +11,8 @@ class OrderItem {
   final List<CartItem> products;
   final DateTime dateTime;
 
+  /// orders can be split into different branches by giving other parameters
+  /// and filter out and show it in the order screen of cashier.
   OrderItem({
     @required this.id,
     @required this.amount,
@@ -23,7 +25,11 @@ class Orders with ChangeNotifier {
   List<OrderItem> _orders = [];
   String authToken;
   String userId;
-  Orders(this.authToken,this.userId,this._orders);
+  Orders(
+    this.authToken,
+    this.userId,
+    this._orders,
+  );
 
   List<OrderItem> get orders {
     return [..._orders];
