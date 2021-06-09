@@ -63,7 +63,7 @@ Making a startup coffeeshop app
 ## Authors
 
 * **Kim Yeon Wan** - *Initial work* - [Yadan](https://github.com/wanyeonkim)
-* **Chea Wern Yen** - *Initial work & Designing* - [Lisa Chea](https://github.com/thelizc)
+* **Chea Wern Yen** - *Initial work & Designing* - [Lisa Chea](https://github.com/lisacheawy)
 
 
 ## License
