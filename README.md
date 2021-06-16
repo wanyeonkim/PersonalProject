@@ -58,7 +58,7 @@ The Java version for this Project was Coretto 11.
 
 It is a cafe application.
 
-![SignUp](BoatRace1/GUI/playerboat/boat1.png)  ![SignUp](project2Image/singUp.jpg)
+![SignUp](project2Image/signUp.jpg)  ![SignUp](project2Image/singUp.jpg)
 s
 
 # 3rd project
