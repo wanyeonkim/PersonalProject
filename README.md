@@ -4,7 +4,6 @@ A Repo shared between Kim Yeon Wan and Chea Wern Yen.
 This Repo contains all of our shared projects.
 
 ## 1. Boat Race Game
-
 ### Introduction
 Our first shared project is a Boat Race game and was initially intended for a university assignment. However, we decided to implement GUI to improve its appearance and make it more interesting.  
 * This game involves two players in their respective boats, who will race to the end of the river using a dice roll.  
@@ -17,11 +16,9 @@ Our first shared project is a Boat Race game and was initially intended for a un
 
 
 ### Getting Started:
-
 The following instructions will allow you to obtain an executable copy of the project on your local machine for development and testing purposes. See _Installation_ for notes on how to deploy the project on a live system.
 
 #### Prerequisites
-
 JavaFx was used in this project. Additional steps are required to install JavaFx for Java versions above JDK 8.
 
 #### Installation
@@ -43,27 +40,27 @@ JavaFx was used in this project. Additional steps are required to install JavaFx
 
 
 ### Testing
-
 Tests were conducted multiple times with a different set of users.
 
 
 ### Version
-
 ```
 The Java version for this project was Coretto 11.
 ```
 
-# 2. Café food ordering mobile application
+## 2. Café food ordering mobile application
 ### Introduction
 This was our first mobile application for a café in South Korea.  
+* This mobile application was developed using Flutter.  
+* All illustrations were designed using Adobe Illustrator.  
+
 Main features:  
 1. Sign up and login.  
    All users can view the menu. However, only registered users can add items to their cart and checkout.
 2. View menu items and add/remove them from cart.
-3. Apply voucher to the cart.
+3. Apply voucher to the cart.  
 
-* This mobile application was developed using Flutter.  
-* All illustrations were designed using Adobe Illustrator.  
+
 \*Code cannot be disclosed.
 
 <img src="HolmesCafeImages/signUp.jpg" width="200" > <img src="HolmesCafeImages/Home.jpg" width="200" >
