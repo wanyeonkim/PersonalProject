@@ -56,9 +56,8 @@ The Java version for this Project was Coretto 11.
 
 # 2nd Project
 
-```
-Making a startup coffeeshop app (cant be posted here)
-```
+It is a cafe application
+![SignUp](project2Image/singUp.jpg)
 
 # 3rd project
 
