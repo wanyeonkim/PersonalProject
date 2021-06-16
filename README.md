@@ -7,10 +7,11 @@ This Repo contains all of our shared projects.
 
 
 ### Introduction
-Our first shared project is a Boat Race game and was initially intended for a university assignment. However, we decided to implement GUI to improve its appearance and make it more interesting.
-\n This game involves two players in their respective boats, who will race to the end of the river using a dice roll.
-\n This game was developed using Java, and the GUI libraries used were JavaFx and Swing.
-\n All illustrations were designed using Adobe Illustrator.
+Our first shared project is a Boat Race game and was initially intended for a university assignment.  
+However, we decided to implement GUI to improve its appearance and make it more interesting.  
+This game involves two players in their respective boats, who will race to the end of the river using a dice roll.  
+This game was developed using Java, and the GUI libraries used were JavaFx and Swing.  
+All illustrations were designed using Adobe Illustrator.
 
  ![Boat1](BoatRace1/GUI/playerboat/boat1.png)  ![Boat2](BoatRace1/GUI/playerboat/boat2.png)
 
