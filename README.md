@@ -58,22 +58,22 @@ The Java version for this Project was Coretto 11.
 
 It is a cafe application. (Code cant be posted here)
 
-<img src="project2Image/signUp.jpg" width="100" > <img src="project2Image/Home.jpg" width="100" >
-<img src="project2Image/Menu.jpg" width="100" >   <img src="project2Image/Cart.jpg" width="100" >
+<img src="project2Image/signUp.jpg" width="200" > <img src="project2Image/Home.jpg" width="200" >
+<img src="project2Image/Menu.jpg" width="200" >   <img src="project2Image/Cart.jpg" width="200" >
 
 
 # 3rd project
 Court Booking mobile application (Code cant be posted here)
 
-<img src="project3Image/signup.png" width="100" > <img src="project3Image/Account.png" width="100" >
-<img src="project3Image/Venues.png" width="100" >   <img src="project3Image/Booking_History_Detail_Example.png" width="100" >
+<img src="project3Image/signup.png" width="200" > <img src="project3Image/Account.png" width="200" >
+<img src="project3Image/Venues.png" width="200" >   <img src="project3Image/Booking_History_Detail_Example.png" width="200" >
 
 # 4th Project
 
 Mobile Chat Application Using flutter
 
-<img src="project3Image/signup.png" width="100" > <img src="project3Image/Account.png" width="100" >
-<img src="project3Image/Venues.png" width="100" >   <img src="project3Image/Booking_History_Detail_Example.png" width="100" >
+<img src="project3Image/signup.png" width="200" > <img src="project3Image/Account.png" width="200" >
+<img src="project3Image/Venues.png" width="200" >   <img src="project3Image/Booking_History_Detail_Example.png" width="200" >
 
 
 
