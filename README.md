@@ -3,7 +3,7 @@
 A Repo shared between Kim Yeon Wan and Chea Wern Yen.
 This Repo contains all of our shared projects.
 
-## 1. Boat Race Game
+# 1. Boat Race Game
 ### Introduction
 Our first shared project is a Boat Race game and was initially intended for a university assignment. However, we decided to implement GUI to improve its appearance and make it more interesting.  
 * This game involves two players in their respective boats, who will race to the end of the river using a dice roll.  
@@ -48,13 +48,13 @@ Tests were conducted multiple times with a different set of users.
 The Java version for this project was Coretto 11.
 ```
 
-## 2. Café food ordering mobile application
+# 2. Café food ordering mobile application
 ### Introduction
-This was our first mobile application for a café in South Korea.  
+This was our first mobile application for a café in South Korea.
 * This mobile application was developed using Flutter.  
-* All illustrations were designed using Adobe Illustrator.  
+* The illustrations, layouts and storyboard were designed using Adobe Illustrator.  
 
-Main features:  
+Main features:
 1. Sign up and login.  
    All users can view the menu. However, only registered users can add items to their cart and checkout.
 2. View menu items and add/remove them from cart.
@@ -68,17 +68,32 @@ Main features:
 
 
 # 3. Sports court booking mobile application
+### Introduction
+This was developed for a startup in Malaysia.  
+* This mobile application was developed using Flutter.  
+* The illustrations, layouts and storyboard were designed using Adobe Illustrator.  
+
+Main features:
+1. Sign up and login.  
+   All users can view the venues and court availability. However, only registered users can proceed with booking.
+2. Select timing and venue for booking.
+3. Apply voucher code to the booking cart.
+
 \*Code cannot be disclosed.
 
 <img src="BookACourtImages/signup.png" width="200" > <img src="BookACourtImages/Account.png" width="200" >
 <img src="BookACourtImages/Venues.png" width="200" >   <img src="BookACourtImages/Booking_History_Detail_Example.png" width="200" >
 
 # 4. Chatting mobile application
-\*Code cannot be disclosed.
-Mobile Chat Application Using flutter
+### Introduction
+This is our own personal project.
+* This mobile application was developed using Flutter.  
+* The illustrations, layouts and storyboard were designed using Adobe Illustrator.
 
-<img src="project3Image/signup.png" width="200" > <img src="project3Image/Account.png" width="200" >
-<img src="project3Image/Venues.png" width="200" >   <img src="project3Image/Booking_History_Detail_Example.png" width="200" >
+\*Code cannot be disclosed.
+
+<img src="StayInTouchImages/signup.png" width="200" > <img src="StayInTouchImages/chat-room.png" width="200" >
+<img src="StayInTouchImages/chats.png" width="200" >   <img src="StayInTouchImages/friends.png" width="200" >
 
 
 
@@ -86,11 +101,10 @@ Mobile Chat Application Using flutter
 ## Authors
 
 * **Kim Yeon Wan** - *Initial work* - [Yadan](https://github.com/wanyeonkim)
-* **Chea Wern Yen** - *Initial work & Designing* - [Lisa Chea](https://github.com/lisacheawy)
+* **Chea Wern Yen** - *Initial work & UI/UX Design* - [Lisa Chea](https://github.com/lisacheawy)
 
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/wanyeonkim/ToiletRoll/blob/main/LICENSE) file for details
 
 ## Acknowledgments
