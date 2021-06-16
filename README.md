@@ -5,13 +5,11 @@ This Repo contains all of our shared projects.
 
 # 1. Boat Race Game
 
-
 ### Introduction
-Our first shared project is a Boat Race game and was initially intended for a university assignment.  
-However, we decided to implement GUI to improve its appearance and make it more interesting.  
-This game involves two players in their respective boats, who will race to the end of the river using a dice roll.  
-This game was developed using Java, and the GUI libraries used were JavaFx and Swing.  
-All illustrations were designed using Adobe Illustrator.
+Our first shared project is a Boat Race game and was initially intended for a university assignment. However, we decided to implement GUI to improve its appearance and make it more interesting.  
+* This game involves two players in their respective boats, who will race to the end of the river using a dice roll.  
+* This game was developed using Java, and the GUI libraries used were JavaFx and Swing.  
+* All illustrations were designed using Adobe Illustrator.
 
  ![Boat1](BoatRace1/GUI/playerboat/boat1.png)  ![Boat2](BoatRace1/GUI/playerboat/boat2.png)
 
@@ -56,7 +54,16 @@ The Java version for this project was Coretto 11.
 ```
 
 # 2. Café food ordering mobile application
-Developed using Flutter.
+### Introduction
+This was our first mobile application for a café in South Korea.  
+Main features:  
+1. Sign up and login.  
+   All users can view the menu. However, only registered users can add items to their cart and checkout.
+2. View menu items and add/remove them from cart.
+3. Apply voucher to the cart.
+
+* This mobile application was developed using Flutter.  
+* All illustrations were designed using Adobe Illustrator.  
 \*Code cannot be disclosed.
 
 <img src="HolmesCafeImages/signUp.jpg" width="200" > <img src="HolmesCafeImages/Home.jpg" width="200" >
