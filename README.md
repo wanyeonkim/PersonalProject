@@ -57,9 +57,9 @@ The Java version for this Project was Coretto 11.
 # 2nd Project
 
 It is a cafe application.
+<img src="project2Image/signUp.jpg" width="100" height="100">
+![SignUp](project2Image/singUp.jpg)
 
-![SignUp](project2Image/signUp.jpg = 100x400)  ![SignUp](project2Image/singUp.jpg)
-s
 
 # 3rd project
 
