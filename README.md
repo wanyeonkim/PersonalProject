@@ -3,7 +3,7 @@
 A Repo shared between Kim Yeon Wan and Chea Wern Yen.
 This Repo contains all of our shared projects.
 
-# 1. Boat Race Game
+## 1. Boat Race Game
 
 ### Introduction
 Our first shared project is a Boat Race game and was initially intended for a university assignment. However, we decided to implement GUI to improve its appearance and make it more interesting.  
@@ -16,9 +16,9 @@ Our first shared project is a Boat Race game and was initially intended for a un
  ![pumpkinbomb](BoatRace1/GUI/Compo/bombpumpkinpost.png)  ![skullbomb](BoatRace1/GUI/Compo/skullbombpost.png)
 
 
-### Getting Started
+### Getting Started:
 
-The following instructions will allow you to obtain an executable copy of the project on your local machine for development and testing purposes. See Installation for notes on how to deploy the project on a live system.
+The following instructions will allow you to obtain an executable copy of the project on your local machine for development and testing purposes. See _Installation_ for notes on how to deploy the project on a live system.
 
 #### Prerequisites
 
@@ -42,12 +42,12 @@ JavaFx was used in this project. Additional steps are required to install JavaFx
 ```
 
 
-### Running the tests
+### Testing
 
 Tests were conducted multiple times with a different set of users.
 
 
-## Version
+### Version
 
 ```
 The Java version for this project was Coretto 11.
