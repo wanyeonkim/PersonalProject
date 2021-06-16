@@ -56,21 +56,21 @@ The Java version for this Project was Coretto 11.
 
 # 2nd Project
 
-'''
+```
 Making a startup coffeeshop app (cant be posted here)
-'''
+```
 
 # 3rd project
 
-'''
+```
 Court Booking mobile application (cant be posted here)
-'''
+```
 
 # 4th Project
 
-'''
+```
 Mobile Chat Application Using flutter
-'''
+```
 
 
 
