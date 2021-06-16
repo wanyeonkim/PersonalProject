@@ -81,7 +81,7 @@ Main features:
 
 \*Code cannot be disclosed.
 
-<img src="BookACourtImages/signup.png" width="200" > <img src="BookACourtImages/Account.png" width="200" >
+<img src="BookACourtImages/signup.png" width="200" > <img src="BookACourtImages/Deals.png" width="200" >
 <img src="BookACourtImages/Venues.png" width="200" >   <img src="BookACourtImages/Booking_History_Detail_Example.png" width="200" >
 
 # 4. Chatting mobile application
