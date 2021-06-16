@@ -92,7 +92,7 @@ This is our own personal project.
 
 \*Code cannot be disclosed.
 
-<img src="StayInTouchImages/signup.png" width="200" > <img src="StayInTouchImages/chat-room.png" width="200" >
+<img src="StayInTouchImages/signup.png" width="150" > <img src="StayInTouchImages/chat-room.png" width="200" >
 <img src="StayInTouchImages/chats.png" width="200" >   <img src="StayInTouchImages/friends.png" width="200" >
 
 
