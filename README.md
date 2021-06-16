@@ -46,7 +46,6 @@ JavaFx was used in this project, any java version above JDK 8, need a additional
 ### Running the tests
 
 Tests was done a lot of times with different set of users.
-peepeepoopoo
 
 
 ## Versioning
