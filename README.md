@@ -1,16 +1,16 @@
 
-# ToiletRoll
-Do work together
+# Personal Projects
+A Repo shared between Kim Yeon Wan and Chea Wern Yen.
+This Repo contains all of our shared projects.
 
-This Repo contain everything that we work on.
+# 1. Boat Race Game
 
-# 1st Project
-The first ever project that we worked on together was boat Race game.
-Initially, it was a university assignment, but we decided to add some GUI on it as it was too boring.
 
-### details
-
-This is a Java project, 2 player boat race game that will be run using a dice roll.
+### Introduction
+Our first shared project is a Boat Race game and was initially intended for a university assignment. However, we decided to implement GUI to improve its appearance and make it more interesting.
+\n This game involves two players in their respective boats, who will race to the end of the river using a dice roll.
+\n This game was developed using Java, and the GUI libraries used were JavaFx and Swing.
+\n All illustrations were designed using Adobe Illustrator.
 
  ![Boat1](BoatRace1/GUI/playerboat/boat1.png)  ![Boat2](BoatRace1/GUI/playerboat/boat2.png)
 
@@ -19,57 +19,57 @@ This is a Java project, 2 player boat race game that will be run using a dice ro
 
 ### Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The following instructions will allow you to obtain an executable copy of the project on your local machine for development and testing purposes. See Installation for notes on how to deploy the project on a live system.
 
 #### Prerequisites
 
-JavaFx was used in this project, any java version above JDK 8, need a additional steps to install JavaFx.
+JavaFx was used in this project. Additional steps are required to install JavaFx for Java versions above JDK 8.
 
-#### Installing
+#### Installation
 ```
 1.  JDK 8
-	1.go to https://gluonhq.com/products/javafx/ to download javafx preferable Long Term Support(LTS).
-	2. after downloading the Zip file, extract the files in a folder in ur drive.
-	3. goto environment variable to add the path of the folder to the system variable.
-	4. you are good to go after all these stpes
+	1. Go to https://gluonhq.com/products/javafx/ to download JavaFx, preferably Long Term Support(LTS).
+	2. After downloading the zip file, extract the files into a folder in your drive.
+	3. Go to environment variables to add the path of the folder to the system variable.
+	4. You are good to go!
 
 2. For DB visualizing
-	1. goto "sqliteJDBC" folder
-	2. also goto [sqlite browser]-(https://sqlitebrowser.org/dl/)
-	3. then download according to your system requirement.
-	4. run the sqlite browser
-	5. press the open database then goto the src directory in the porject folder select the db from there.
-	6. from there u will have access to the data.
+	1. Go to "sqliteJDBC" folder
+	2. Also, go to [sqlite browser]-(https://sqlitebrowser.org/dl/)
+	3. Download according to your system requirements.
+	4. Run the sqlite browser.
+	5. Click on the open database. Then, go to the src directory in the project folder and select the database from there.
+	6. From there, you will have access to the data.
 ```
 
 
 ### Running the tests
 
-Tests was done a lot of times with different set of users.
+Tests were conducted multiple times with a different set of users.
 
 
-## Versioning
+## Version
 
 ```
-The Java version for this Project was Coretto 11.
+The Java version for this project was Coretto 11.
 ```
 
-# 2nd Project
+# 2. Café food ordering mobile application
+Developed using Flutter.
+\*Code cannot be disclosed.
 
-It is a cafe application. (Code cant be posted here)
-
-<img src="project2Image/signUp.jpg" width="200" > <img src="project2Image/Home.jpg" width="200" >
-<img src="project2Image/Menu.jpg" width="200" >   <img src="project2Image/Cart.jpg" width="200" >
+<img src="HolmesCafeImages/signUp.jpg" width="200" > <img src="HolmesCafeImages/Home.jpg" width="200" >
+<img src="HolmesCafeImages/Menu.jpg" width="200" >   <img src="HolmesCafeImages/Cart.jpg" width="200" >
 
 
-# 3rd project
-Court Booking mobile application (Code cant be posted here)
+# 3. Sports court booking mobile application
+\*Code cannot be disclosed.
 
-<img src="project3Image/signup.png" width="200" > <img src="project3Image/Account.png" width="200" >
-<img src="project3Image/Venues.png" width="200" >   <img src="project3Image/Booking_History_Detail_Example.png" width="200" >
+<img src="BookACourtImages/signup.png" width="200" > <img src="BookACourtImages/Account.png" width="200" >
+<img src="BookACourtImages/Venues.png" width="200" >   <img src="BookACourtImages/Booking_History_Detail_Example.png" width="200" >
 
-# 4th Project
-
+# 4. Chatting mobile application
+\*Code cannot be disclosed.
 Mobile Chat Application Using flutter
 
 <img src="project3Image/signup.png" width="200" > <img src="project3Image/Account.png" width="200" >
