@@ -82,7 +82,7 @@ Main features:
 \*Code cannot be disclosed.
 
 <img src="BookACourtImages/signup-blur.png" width="200"> <img src="BookACourtImages/Homepage-blur.png" width="200">
-<img src="BookACourtImages/Venues-blur.png" width="200">   <img src="BookACourtImages/Deals-blur.png"> width="200" >
+<img src="BookACourtImages/Venues-blur.png" width="200">   <img src="BookACourtImages/Deals-blur.png" width="200" >
 
 # 4. Chatting mobile application
 ### Introduction
