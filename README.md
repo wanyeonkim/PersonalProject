@@ -101,12 +101,22 @@ This is our own personal project.
 <img src="StayInTouchImages/signup.png" width="200" > <img src="StayInTouchImages/chat-room.png" width="200" >
 <img src="StayInTouchImages/chats.png" width="200" >   <img src="StayInTouchImages/friends.png" width="200" >
 
+# 5-1. Food Ordering Platform (User)
+### Introduction
+* This mobile application was developed using Flutter, Nodejs, Mongodb.
+* The illustrations were designed using Adobe Illustrator.
+* The layouts and storyboard were designed using Adobe XD
+
+# 5-2. Food Ordering Platform (Vendor)
+* This mobile application was developed using Flutter, Nodejs, Mongodb.
+* The illustrations were designed using Adobe Illustrator.
+* The layouts and storyboard were designed using Adobe XD
 
 
 
 ## Authors
 
-* **Kim Yeon Wan** - *Initial work* - [Yadan](https://github.com/wanyeonkim)
+* **Kim Yeon Wan** - *Initial work & Programming* - [Yadan](https://github.com/wanyeonkim)
 * **Chea Wern Yen** - *Initial work & UI/UX Design* - [Lisa Chea](https://github.com/lisacheawy)
 
 
