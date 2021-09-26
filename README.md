@@ -3,6 +3,8 @@
 A Repo shared between Kim Yeon Wan and Chea Wern Yen.
 This Repo contains all of our shared projects.
 
+# -Latest Development-
+
 # 1. Boat Race Game
 ### Introduction
 Our first shared project is a Boat Race game and was initially intended for a university assignment. However, we decided to implement GUI to improve its appearance and make it more interesting.  
