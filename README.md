@@ -116,8 +116,8 @@ This is our own personal project.
 
 ## Authors
 
-* **Kim Yeon Wan** - *Initial work & Programming* - [Yadan](https://github.com/wanyeonkim)
-* **Chea Wern Yen** - *Initial work & UI/UX Design* - [Lisa Chea](https://github.com/lisacheawy)
+* **Kim Yeon Wan** - *Initial work & Programming(Lead)* - [Yadan](https://github.com/wanyeonkim)
+* **Chea Wern Yen** - *Initial work & UI/UX Design & Programming* - [Lisa Chea](https://github.com/lisacheawy)
 
 
 ## License
