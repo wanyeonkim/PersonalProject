@@ -1,6 +1,6 @@
 
 # Personal Projects
-A Repo shared between Kim Yeon Wan and Chea Wern Yen.
+A Repo shared between **Kim Yeon Wan** and **Chea Wern Yen**.
 This Repo contains all of our shared projects.
 
 # -Latest Development-
