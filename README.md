@@ -50,6 +50,10 @@ Tests were conducted multiple times with a different set of users.
 The Java version for this project was Coretto 11.
 ```
 
+### Additional Contributors
+* **Pierre Corazo Cesario** -  [PIE](https://github.com/PScoriae)
+* **Peh Kim Wei** -  [Adriel](https://github.com/adrielpkw)
+
 # 2. Café food ordering mobile application
 ### Introduction
 This was our first mobile application for a café in South Korea.
