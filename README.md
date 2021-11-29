@@ -107,14 +107,20 @@ This is our own personal project.
 
 # 5-1. Food Ordering Platform (User)
 ### Introduction
-* This mobile application was developed using Flutter, Nodejs, Mongodb.
+* This mobile application was developed using Flutter, Nodejs, MongoDB. (Still a Prototype)
+* API used: Google Map, Twillio.
 * The illustrations were designed using Adobe Illustrator.
 * The layouts and storyboard were designed using Adobe XD
+* Endpoints: Checkout, Encryption/Decryption(AES-256), E-Wallet, Otp, Payment, QrCode, Time(Generate Malaysia and Korea time only.), Custom Phrase. 
+* The application is hosted on Heroku
 
 # 5-2. Food Ordering Platform (Vendor)
-* This mobile application was developed using Flutter, Nodejs, Mongodb.
+* This mobile application was developed using Flutter, Nodejs, MongoDB. (Still a Prototype)
+* API used: Twillio.
 * The illustrations were designed using Adobe Illustrator.
 * The layouts and storyboard were designed using Adobe XD
+* Endpoints: Checkout, Encryption/decryption(AES-256), E-Wallet, Otp, Payment, QrCode, Time(Generate Malaysia and Korea time only.), Custom Phrase. 
+* The application is hosted on Heroku
 
 
 
