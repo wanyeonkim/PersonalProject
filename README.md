@@ -114,6 +114,15 @@ This is our own personal project.
 * Endpoints: Checkout, Encryption/Decryption(AES-256), E-Wallet, Otp, Payment, QrCode, Time(Generate Malaysia and Korea time only.), Custom Phrase. 
 * The application is hosted on Heroku
 
+<img src="Gopitiam/SignIn.gif" width="200" /> <img src="Gopitiam/signup.gif" width="200" />
+<img src="Gopitiam/adding address.gif" width="200" /> <img src="Gopitiam/fav vendor.gif" width="200" />
+<img src="Gopitiam/checkout-credit.gif" width="200" /> <img src="Gopitiam/checkout-ewallet.gif" width="200" />
+<img src="Gopitiam/qr and e-wallet.gif" width="200" /> <img src="Gopitiam/using voucher.gif" width="200" />
+<img src="Gopitiam/rating0with tipping.gif" width="200" /> <img src="Gopitiam/rating-without tipping.gif" width="200" />
+<img src="Gopitiam/displaying dategory and dynamic delivery fee changing.gif" width="200" /> 
+
+
+
 # 5-2. Food Ordering Platform (Vendor)
 * This mobile application was developed using Flutter, Nodejs, MongoDB. (Still a Prototype)
 * API used: Twillio.
