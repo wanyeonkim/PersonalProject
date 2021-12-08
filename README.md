@@ -77,7 +77,7 @@ Main features:
 <img src="HolmesCafeImages/Holmes_3.gif" width="200" /> <img src="HolmesCafeImages/Holmes_4.gif" width="200" />
 
 
-# 3. Sports court booking mobile application
+# 3. Sports Court Booking Mobile Application
 ### Introduction
 This was developed for a startup in Malaysia.  
 * This mobile application was developed using Flutter.  
@@ -94,7 +94,7 @@ Main features:
 <img src="BookACourtImages/signup-blur.png" width="200"> <img src="BookACourtImages/Homepage-blur.png" width="200">
 <img src="BookACourtImages/Venues-blur.png" width="200">   <img src="BookACourtImages/Deals-blur.png" width="200" >
 
-# 4. Chatting mobile application
+# 4. Chatting Mobile Application
 ### Introduction
 This is our own personal project.
 * This mobile application was developed using Flutter.  
@@ -107,12 +107,12 @@ This is our own personal project.
 
 # 5-1. Food Ordering Platform (User)
 ### Introduction
-* This mobile application was developed using Flutter, Nodejs, MongoDB. (Still a Prototype)
-* API used: Google Map, Twillio.
+* This mobile application was developed using Flutter, Nodejs, MongoDB (still a prototype)
+* API used: Google Maps, Twillio
 * The illustrations were designed using Adobe Illustrator.
-* The layouts and storyboard were designed using Adobe XD
-* Endpoints: Checkout, Encryption/Decryption(AES-256), E-Wallet, Otp, Payment, QrCode, Time(Generate Malaysia and Korea time only.), Custom Phrase. 
-* The application is hosted on Heroku
+* The mockups and storyboard were designed through Adobe XD.
+* Endpoints: Checkout, Encryption/Decryption (AES-256), E-Wallet, OTP, Payment, QRCode, Time (to generate Malaysia and South Korea time only), custom phrase. 
+* The application is hosted on Heroku.
 
 <img src="Gopitiam/SignIn.gif" width="200" /> <img src="Gopitiam/singup.gif" width="400" />
 <img src="Gopitiam/adding address.gif" width="200" /> <img src="Gopitiam/fav vendor.gif" width="200" />
@@ -124,12 +124,12 @@ This is our own personal project.
 
 
 # 5-2. Food Ordering Platform (Vendor)
-* This mobile application was developed using Flutter, Nodejs, MongoDB. (Still a Prototype)
-* API used: Twillio.
+* This mobile application was developed using Flutter, Nodejs, MongoDB (still a prototype)
+* API used: Twillio
 * The illustrations were designed using Adobe Illustrator.
-* The layouts and storyboard were designed using Adobe XD
-* Endpoints: Checkout, Encryption/decryption(AES-256), E-Wallet, Otp, Payment, QrCode, Time(Generate Malaysia and Korea time only.), Custom Phrase. 
-* The application is hosted on Heroku
+* The layouts and storyboard were designed through Adobe XD
+* Endpoints: Checkout, Encryption/Decryption (AES-256), E-Wallet, OTP, Payment, QRCode, Time (to generate Malaysia and South Korea time only), custom phrase. 
+* The application is hosted on Heroku.
 
 <img src="Gopitiam/vendor/view order details.gif" width="200" /> <img src="Gopitiam/vendor/menu tab.gif" width="200" />
 <img src="Gopitiam/vendor/account tab.gif" width="200" />
