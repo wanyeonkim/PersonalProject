@@ -4,6 +4,14 @@ A Repo shared between **Kim Yeon Wan** and **Chea Wern Yen**.
 This Repo contains all of our shared projects.
 
 # -Latest Development-
+# Food Ordering Platform for Users and Vendors
+* This mobile application was developed using Flutter, Nodejs, MongoDB (still a prototype)
+* API used: Google Maps, Twillio
+* The illustrations were designed using Adobe Illustrator.
+* The mockups and storyboard were created through Adobe XD.
+* Endpoints: Checkout, Encryption/Decryption (AES-256), E-Wallet, OTP, Payment, QRCode, Time (to generate Malaysia and South Korea time only), custom phrase. 
+* The application is hosted on Heroku.
+
 
 # 1. Boat Race Game
 ### Introduction
@@ -110,7 +118,7 @@ This is our own personal project.
 * This mobile application was developed using Flutter, Nodejs, MongoDB (still a prototype)
 * API used: Google Maps, Twillio
 * The illustrations were designed using Adobe Illustrator.
-* The mockups and storyboard were designed through Adobe XD.
+* The mockups and storyboard were created through Adobe XD.
 * Endpoints: Checkout, Encryption/Decryption (AES-256), E-Wallet, OTP, Payment, QRCode, Time (to generate Malaysia and South Korea time only), custom phrase. 
 * The application is hosted on Heroku.
 
@@ -127,7 +135,7 @@ This is our own personal project.
 * This mobile application was developed using Flutter, Nodejs, MongoDB (still a prototype)
 * API used: Twillio
 * The illustrations were designed using Adobe Illustrator.
-* The layouts and storyboard were designed through Adobe XD
+* The layouts and storyboard were created through Adobe XD
 * Endpoints: Checkout, Encryption/Decryption (AES-256), E-Wallet, OTP, Payment, QRCode, Time (to generate Malaysia and South Korea time only), custom phrase. 
 * The application is hosted on Heroku.
 
