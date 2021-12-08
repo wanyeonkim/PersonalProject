@@ -4,7 +4,7 @@ A Repo shared between **Kim Yeon Wan** and **Chea Wern Yen**.
 This Repo contains all of our shared projects.
 
 # ★ Latest Development: 
-Food Ordering Platform for Users and Vendors
+## Food Ordering Platform for Users and Vendors
 * This mobile application was developed using Flutter, Nodejs, MongoDB (still a prototype)
 * API used: Google Maps, Twillio
 * The illustrations were designed using Adobe Illustrator.
