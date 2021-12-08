@@ -11,7 +11,7 @@ This Repo contains all of our shared projects.
 * The mockups and storyboard were created through Adobe XD.
 * Endpoints: Checkout, Encryption/Decryption (AES-256), E-Wallet, OTP, Payment, QRCode, Time (to generate Malaysia and South Korea time only), custom phrase. 
 * The application is hosted on Heroku.
-<img src="Gopitiam/customer_j.gif" width="400" />
+<img src="Gopitiam/customer_j.gif" width="600" />
 
 
 # 1. Boat Race Game
